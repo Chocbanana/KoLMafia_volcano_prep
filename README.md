@@ -13,6 +13,8 @@ This is a script to automate the prep before volcano mining:
 * Puts on the Smooth Velvet outfit and gets the top floor Volcoino
 * Visits the bunker and turns in the appropriate item if you can, in order of least expensive to most (if there are multiple available options) to get a Volcoino
 
+There is [another script that already does something similar](https://kolmafia.us/threads/autovolcano-automates-the-hot-charter-daily-quest.19543/), but in addition to going adventuring for the hot charter daily quest(which I don't want to do) it doesn't do everything that I'd like: namely, consuming for adventures and buying items.
+
 The following are the configuration options of the scripts; to change, simply change the values int the top of the script.
 
 ```java
@@ -37,3 +39,7 @@ $item[superheated metal]: {15: 8200}
 };
 ```
 
+## Usage
+Download and put in your `/scripts` folder. To find the directory, [see the location for Windows/Linux/Mac](https://wiki.kolmafia.us/index.php/Mafia_directories). Then in KoLMafia hit Scripts -> Refresh Menu, and find `VolcanoPrep.ash`.
+
+To do the actual volcano mining, I recommend [this script](https://www.kolmafia.us/threads/volcano_mining-ash-automate-mining-of-the-velvet-gold-mine-at-that-70s-volcano.19155/).

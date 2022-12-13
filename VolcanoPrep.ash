@@ -8,7 +8,7 @@ Script for auto-doing the menial parts of volcano mining. Assumes:
 
 //**** Change customizable here ****//
 
-string smoothOutfit = "Smooth Velvet";
+string smoothOutfit = "Smooth Velvet"; // What the name of your already existing Smooth Velvet full outfit is
 item booze = $item[hacked gibson];
 item food = $item[spooky hi mein];
 // Has to be perfectly divisable into leftover liver space, like elemental caipiroska
@@ -155,11 +155,3 @@ if (!to_boolean(get_property("_volcanoItemRedeemed"))) {
 
 print("-------- FINISHED volcano prep! --------", "green");
 refresh_status();
-
-
-
-
-
-
-
-
